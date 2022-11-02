@@ -11,10 +11,14 @@ canvas {
 
 #scene {
   display: block;
-  width: 800px;
-  height: 600px;
+  /* width: 800px;
+  height: 600px; */
 }
 
+#example_selector{
+  display: block;
+  height: 50px;
+}
 
 #one {
   display: block;
