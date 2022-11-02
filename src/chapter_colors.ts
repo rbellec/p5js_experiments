@@ -1,6 +1,8 @@
- 
+import { P5Scene } from "./types";
 
-let exemple_1 = function (p) {
+let all_scenes: Array<P5Scene> = [];
+
+const hello_color = function (p) {
   p.setup = () => {
     p.createCanvas(720, 720);
 
@@ -18,8 +20,11 @@ let exemple_1 = function (p) {
   };
 };
 
-let scenes_by_name = new Map<string, Function>([
-    ["p_1_0_01", exemple_1]
-]);
+all_scenes.push({
+  book_reference: "p_1_0_01",
+  name: "Hello color",
+  description: "Concentric squares of complementary color.",
+  scene: hello_color
+});
 
-export{ scenes_by_name as chapter1ColorScenes} ;
+export { all_scenes as chapter1ColorScenes };
