@@ -21,3 +21,5 @@ let exemple_1 = function (p) {
 let scenes_by_name = new Map<string, Function>([
     ["p_1_0_01", exemple_1]
 ]);
+
+export{ scenes_by_name as chapter1ColorScenes} ;
