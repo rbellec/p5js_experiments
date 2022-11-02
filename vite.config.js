@@ -7,7 +7,8 @@ module.exports = defineConfig({
     rollupOptions: {
       input: {
         main: resolve(__dirname, 'index.html'),
-        scenes(__dirname, 'scenes_players.html')      }
+        scenes: resolve(__dirname, 'scenes.html')
+      }
     }
   }
 })
