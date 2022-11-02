@@ -9,6 +9,13 @@ canvas {
   display: block;
 }
 
+#scene {
+  display: block;
+  width: 800px;
+  height: 600px;
+}
+
+
 #one {
   display: block;
   width: 800px;
